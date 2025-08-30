@@ -47,9 +47,6 @@ importers:
       '@iconify-json/fa6-solid':
         specifier: ^1.2.4
         version: 1.2.4
-      '@iconify-json/material-symbols':
-        specifier: ^1.2.33
-        version: 1.2.33
       '@iconify/svelte':
         specifier: ^4.2.0
         version: 4.2.0(svelte@5.38.2)
@@ -59,6 +56,9 @@ importers:
       '@tailwindcss/typography':
         specifier: ^0.5.16
         version: 0.5.16(tailwindcss@3.4.17)
+      arcticons:coolapk:
+        specifier: link:@iconify-json/arcticons:coolapk
+        version: link:@iconify-json/arcticons:coolapk
       astro:
         specifier: 5.13.3
         version: 5.13.3(@types/node@24.3.0)(jiti@1.21.7)(lightningcss@1.29.3)(rollup@2.79.2)(sass@1.80.4)(stylus@0.64.0)(terser@5.43.1)(typescript@5.9.2)(yaml@2.7.0)
@@ -68,6 +68,9 @@ importers:
       astro-icon:
         specifier: ^1.1.5
         version: 1.1.5
+      fa6-brands:bilibili:
+        specifier: link:@iconify-json/fa6-brands:bilibili
+        version: link:@iconify-json/fa6-brands:bilibili
       hastscript:
         specifier: ^9.0.1
         version: 9.0.1
@@ -77,6 +80,9 @@ importers:
       markdown-it:
         specifier: ^14.1.0
         version: 14.1.0
+      material-symbols:mail:
+        specifier: link:@iconify-json/material-symbols:mail
+        version: link:@iconify-json/material-symbols:mail
       mdast-util-to-string:
         specifier: ^4.0.0
         version: 4.0.0
@@ -147,6 +153,12 @@ importers:
       '@biomejs/biome':
         specifier: 2.2.0
         version: 2.2.0
+      '@iconify-json/arcticons':
+        specifier: ^1.2.36
+        version: 1.2.36
+      '@iconify-json/material-symbols':
+        specifier: ^1.2.33
+        version: 1.2.33
       '@rollup/plugin-yaml':
         specifier: ^4.1.2
         version: 4.1.2(rollup@2.79.2)
@@ -1087,6 +1099,9 @@ packages:
 
   '@fontsource/roboto@5.2.6':
     resolution: {integrity: sha512-hzarG7yAhMoP418smNgfY4fO7UmuUEm5JUtbxCoCcFHT0hOJB+d/qAEyoNjz7YkPU5OjM2LM8rJnW8hfm0JLaA==}
+
+  '@iconify-json/arcticons@1.2.36':
+    resolution: {integrity: sha512-IQE9URC/1oSAhEhuVLMLXmCKRcs1BJe4qa1g9IWXJtxTjH00EZw2hKG9OjFFLEJ3NEboszwV9q1HWJIKHorMfQ==}
 
   '@iconify-json/fa6-brands@1.2.6':
     resolution: {integrity: sha512-twL3X4KWcxAhbc1vz/mIDsVr+CAItk1/EIfxKUVQtpv6O4eydk5KNYqTZWdvJNHGInUgd6vKg21aWfVgb5DXEg==}
@@ -6381,6 +6396,10 @@ snapshots:
   '@fontsource-variable/jetbrains-mono@5.2.6': {}
 
   '@fontsource/roboto@5.2.6': {}
+
+  '@iconify-json/arcticons@1.2.36':
+    dependencies:
+      '@iconify/types': 2.0.0
 
   '@iconify-json/fa6-brands@1.2.6':
     dependencies:
