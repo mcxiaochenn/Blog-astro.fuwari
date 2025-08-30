@@ -45,6 +45,11 @@ export const navBarConfig: NavBarConfig = {
 		LinkPreset.Archive,
 		LinkPreset.About,
 		{
+			name: "赞助",
+			url: "/donate/", // Internal links should not include the base path, as it is automatically added
+			external: false, // Show an external link icon and will open in a new tab
+		},
+		{
 			name: "GitHub",
 			url: "https://github.com/mcxiaochenn", // Internal links should not include the base path, as it is automatically added
 			external: true, // Show an external link icon and will open in a new tab
@@ -53,7 +58,7 @@ export const navBarConfig: NavBarConfig = {
 };
 
 export const profileConfig: ProfileConfig = {
-	avatar: "assets/images/demo-avatar.png", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
+	avatar: "/avatar.png", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
 	name: "辰渊尘Dusk",
 	bio: "Hello！这里是小尘博客的副站，会同步更新主站内容，主要作为容灾补充，维护不会很勤快的。",
 	links: [
